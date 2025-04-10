@@ -14,4 +14,4 @@ function SomarComTipo(a: number, b: number): number {
 }
 console.log(SomarComTipo(5, 10));
 somar("oi", "tudo bem?");
-SomarComTipo()
+SomarComTipo();
