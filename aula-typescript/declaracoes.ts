@@ -16,3 +16,15 @@ let pessoa: [string, number] = ['maria', 30];
 let id: number | string = 123;
 id = 'ABC123';
 
+//Interfaces - são usadas para definir estrutura de objetos
+interface Usuario {
+    nome: string;
+    idade: number;
+    email?: string; //Opcional
+}
+
+//Utilizando elas fica assim
+let novo_usuario: Usuario = {
+    nome: 'Amanda',
+    idade: 18
+};
